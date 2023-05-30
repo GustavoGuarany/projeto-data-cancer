@@ -41,6 +41,7 @@ df_parquet = spark.read.format("parquet")\
 print ("\nImprime os dados lidos em parquet da processing zone")
 print (df_parquet.show())
 
+#removendo as colunas que nao utilizaremos
 df_soft = df_parquet.drop("RCBP_Name","Code_of_Disease.Adult_Young.","Topography_Code","Morphology_Description","Code_of_Morphology",\
                    "Code_of_Disease_Adult_Young","Youth_Adult_Illness_Description","Naturality","State_Civil","Code_Profession",\
                    "Name_Occupation","Description_of_Topography","Indicator_of_Rare_Case","year","Distant_metastasis","Date_of_Diagnostic",\
@@ -48,6 +49,7 @@ df_soft = df_parquet.drop("RCBP_Name","Code_of_Disease.Adult_Young.","Topography
                    "Code_of_Disease_Adult_Young","Youth_Adult_Illness_Descriptio","Child_Illness_Code", "Child_Illness_Description",\
                    "Date_of_Birth","Raca_Color","Degree_of_Education","Naturality_State","Nationality","status_vital","Illness_Code")
 
+#Renomeando colunas
 df_soft = df_soft\
 .withColumnRenamed('Patient_Code','cod_paci')\
 .withColumnRenamed('Status_Address','estado')\
@@ -56,16 +58,18 @@ df_soft = df_soft\
 .withColumnRenamed('Date_of_Death','data_morte')\
 .withColumnRenamed('Description_of_Disease','tipo_cancer')
 
+#Convertendo para inteiro
 df_soft = df_soft.withColumn("cod_paci", df_soft["cod_paci"].cast(IntegerType()))\
                    .withColumn("Age", df_soft["Age"].cast(IntegerType()))
 
+#selecionando o ano da morte
 df_soft = df_soft.withColumn("cancer_dead", when(df_soft["tipo_morte"] == "CÂNCER", 1).otherwise(0))\
 .withColumn("ano_morte", year(df_soft["data_morte"]))
 
 # Registra o DataFrame como uma tabela temporária
 df_soft.createOrReplaceTempView("df_table")
 
-# Use a cláusula CASE WHEN THEN ELSE em SQL
+# Query para incrementar a coluna faixa-etaria
 query_age = """
 SELECT *,
 CASE 
@@ -85,12 +89,13 @@ FROM df_table
 
 df_soft = spark.sql(query_age)
 
-# imprime os dados lidos em parquet
+# Imprime os dados lidos em parquet
 print ("\nImprime os dados com a coluna faixa etaria")
 print (df_soft.show())
 
 df_soft.createOrReplaceTempView("df_table")
 
+# Query para retornar a taxa de mortalidade
 query_taxa = """
 WITH cancer_stats AS (
     SELECT 
@@ -109,16 +114,16 @@ ON df_table.tipo_cancer = cancer_stats.tipo_cancer
 
 df_soft = spark.sql(query_taxa)
 
-
+# Escrevendo em formato parquet na curated
 df_soft.repartition(1)\
           .write\
           .format("parquet")\
           .mode("overwrite")\
           .save("s3a://data-cancer-curated-prod/df-parquet-result.parquet")
 
-# imprime os dados lidos em parquet
+# Imprime os dados lidos em parquet
 print ("\nImprime os dados que foram processados para curated")
 print (df_soft.show())
 
-# para a aplicação
+# Para a aplicação
 spark.stop()
