@@ -51,13 +51,13 @@ Os 20 principais cânceres que mais levam a óbito na faixa etária de 35-44 ano
 Os 20 principais cânceres que mais levam a óbito na faixa etária de 45-54 anos.
 ![05](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/51454913-92d7-496c-a0ff-ce7f5c01bb18)
 
-Mortes por câncer por estado, os principais estados para se ter atenção são, Minas Gerais, Paraná, Mato Grosso.
-![06](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/07923922-0d89-486e-ad69-d63318566319)
-
 Os 20 principais cânceres que mais levam a óbito na faixa etária de 55-64 anos.
 ![07](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/34b35c65-8916-4057-b51d-7356c76c542e)
 
 Mortes por câncer por estado, os principais estados para se ter atenção são, Minas Gerais, Paraná, Mato Grosso.
+![06](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/07923922-0d89-486e-ad69-d63318566319)
+
+Diagnósticos e óbitos por câncer por cidades, preocupação principalmente para as cidades de Belo Horizonte pelos altos índices de diagnósticos e as cidades de Curitiba, Belém e Manaus por apresentarem uma alta taxa de mortalidade e relação a quantidade de diagnósticos.
 ![08](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/c5ad5b4d-d12c-4675-b122-b72a7586e7e5)
 
 Este projeto proporcionou uma oportunidade para aplicar e aprofundar conhecimentos em Ciência e Engenharia de Dados, ao abordar uma questão de importância global: a incidência de câncer. Foi proposto uma solução para um problema persistente e universal, usando recursos para analisar e entender as complexas relações entre os dados relacionados a essa doença.
