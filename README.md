@@ -1,6 +1,8 @@
-# Engenharia de Dados na Análise de um Dataset sobre Casos de Câncer no Brasil
 
-# Overview da solução
+<h1 align="center">Engenharia de Dados na Análise de um Dataset sobre Casos de Câncer no Brasil</h1>
+
+<h2 align="center">Overview da solução</h2>
+
 ![overview](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/e38434da-aa19-413e-88d1-d3985557dc1f)
 
 # Tecnologias utilizadas
