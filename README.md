@@ -1,15 +1,16 @@
 
 <h1 align="center">Engenharia de Dados na Análise de um Dataset sobre Casos de Câncer no Brasil</h1>
 
-# Overview da solução
+## Overview da solução
 ![overview](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/e38434da-aa19-413e-88d1-d3985557dc1f)
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 ![tecnologias](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/126abbeb-0cee-48bb-919e-cee85c142437)
 
 
 Este projeto aplica técnicas de engenharia de dados para analisar e interpretar um vasto conjunto de dados disponível no site kaggle sobre o câncer no Brasil. Com a finalidade de explorar a incidência de casos, relação faixa etária/óbitos por câncer e outros. A análise de dados pode ajudar a responder questões cruciais na área médica, contribuindo para políticas de saúde mais eficazes e melhores práticas de tratamento. Com um enfoque específico na doença do câncer, este projeto tem o potencial de influenciar positivamente a prevenção, diagnóstico e tratamento.<br>
 O governo brasileiro, por meio do Instituto Nacional do Câncer (INCA), é responsável pela geração de estimativas relacionadas ao câncer no país. Para isso, o INCA estabelece centros de coleta de dados sistemáticos, conhecidos como Registros de Câncer com Base Populacional (RCBP). Esses registros seguem as leis regionais vigentes e estão disponíveis para solicitação por qualquer indivíduo interessado.<br>
+<br>
 Foi construída uma solução robusta para gerir, armazenar, limpar, modelar e processar dados, com o auxílio de tecnologias da AWS. Essas tecnologias incluíram:<br>
 <br>
 **AWS S3**: Ferramenta que permitiu armazenar dados brutos e processados com segurança e flexibilidade.<br>
@@ -28,5 +29,10 @@ A incidência de casos por gênero:<br>
 **Feminino: 971.471**<br>
 **Masculino: 806.534**<br>   
 Podemos assumir que no Brasil, as mulheres apresentam uma maior incidência de câncer em comparação aos homens.
+
+## Relação faixa etária e diagnóstico de câncer.
+![0 a 24](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/9734d253-d1ca-4b41-bbe6-bf67941140bb)
+![25 a 54](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/cf684047-8bd7-4cc7-ad25-9ecf5d5fbbe7)
+![55 a 84](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/414ce18b-4608-4209-9649-f8921b2661d4)
 
 
