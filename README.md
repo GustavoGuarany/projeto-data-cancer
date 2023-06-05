@@ -147,25 +147,25 @@ Altos índices entre 65 a 74 anos, 55 a 64 anos e 75 a 84 anos.
 
 <div id='25-34'/>
 
-### Os 20 principais cânceres que mais levam a óbito na faixa etária de 25-34 anos.
+### Os 20 principais cânceres que mais levam a óbito por faixa etária.
 ![02](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/cb93d774-859e-46b3-b040-fd4fecc53953)
 <br>
 
 <div id='35-44'/>
 
-### Os 20 principais cânceres que mais levam a óbito na faixa etária de 35-44 anos. 
+### Faixa etária de 25-34 anos. 
 ![04](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/f0d38576-0b91-447b-b950-be2a210d2118)
 <br>
 
 <div id='45-54'/>
 
-### Os 20 principais cânceres que mais levam a óbito na faixa etária de 45-54 anos.
+### Faixa etária de 45-54 anos.
 ![05](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/51454913-92d7-496c-a0ff-ce7f5c01bb18)
 <br>
 
 <div id='55-64'/>
 
-### Os 20 principais cânceres que mais levam a óbito na faixa etária de 55-64 anos.
+### Faixa etária de 55-64 anos.
 ![07](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/34b35c65-8916-4057-b51d-7356c76c542e)
 <br>
 
