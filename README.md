@@ -23,7 +23,7 @@
     5.6 [Faixa-etária de 55-64 anos](#55-64)<br>
     5.7 [Mortes por estado](#estado)<br>
     5.8 [Mortes por cidade](#cidade)<br>
- 
+ 6. [Referência](#referencia)
 
 
 <div id='Overview'/>
@@ -179,7 +179,9 @@ Mortes por câncer por estado, os principais estados para se ter atenção são,
 
 <div id='cidade'/>
 
-### Diagnósticos e óbitos por câncer por cidades, preocupação principalmente para as cidades de Belo Horizonte pelos altos índices de diagnósticos e as cidades de Curitiba, Belém e Manaus por apresentarem uma alta taxa de mortalidade e relação a quantidade de diagnósticos.
+ ## Mortes por câncer por cidade
+ 
+Diagnósticos e óbitos por câncer por cidades, preocupação principalmente para as cidades de Belo Horizonte pelos altos índices de diagnósticos e as cidades de Curitiba, Belém e Manaus por apresentarem uma alta taxa de mortalidade e relação a quantidade de diagnósticos.
 ![08](https://github.com/GustavoGuarany/projeto-data-cancer/assets/126171692/c5ad5b4d-d12c-4675-b122-b72a7586e7e5)
 <br>
 
@@ -187,6 +189,8 @@ Este projeto proporcionou uma oportunidade para aplicar e aprofundar conheciment
 A melhor compreensão dessas relações tem potencial para contribuir em muitas áreas da sociedade, oferecendo insights sobre o impacto do câncer na vida das pessoas e identificando estratégias eficazes para minimizar a incidência e prevenir as mortes associadas à doença. Os dados, quando corretamente interpretados, podem fornecer as ferramentas necessárias para enfrentar esta questão com uma resposta informada e baseada em evidências.
 Em termos de desenvolvimento futuro deste projeto, vemos oportunidades para expandir nossa análise, estabelecendo mais conexões entre os dados disponíveis. Além disso, a automação de processos em cada etapa do projeto permitirá uma eficiência maior e garantirá a relevância contínua de nossas descobertas à medida que novos dados forem disponibilizados. 
 
+<div id='referencia'/> 
+ 
 ## Referências
 
 O governo brasileiro, por meio do Instituto Nacional do Câncer (INCA), é responsável pela geração de estimativas relacionadas ao câncer no país. Para isso, o INCA estabelece centros de coleta de dados sistemáticos, conhecidos como Registros de Câncer com Base Populacional (RCBP). Esses registros seguem as leis regionais vigentes e estão disponíveis para solicitação por qualquer indivíduo interessado.<br>
