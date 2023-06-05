@@ -7,7 +7,7 @@
 <h4> Este projeto aplica técnicas de engenharia de dados para analisar e interpretar um vasto conjunto de dados disponível no site kaggle sobre o câncer no Brasil. </h4>
 <br>
 
- Sumário   
+<h4> Sumário </h4>  
  
  * [Overview da solução](#overview)
  * [Tecnologias utilizadas](#tecnologias)
