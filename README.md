@@ -9,13 +9,12 @@
 
  Sumário   
  
- 1. [Overview da solução](#overview)
- 2. [Tecnologias utilizadas](#tecnologias)
- 3. [Potenciais impactos](#Potenciais-impactos)
- 4. [Solução](#solucao)
- 5. [Análise Exploratória](#analise)
-    
-    5.1 [Relação faixa etária e diagnóstico de câncer](#faixa-etaria-diagnostico)<br>
+ * [Overview da solução](#overview)
+ * [Tecnologias utilizadas](#tecnologias)
+ * [Potenciais impactos](#Potenciais-impactos)
+ * [Solução](#solucao)
+ * [Análise Exploratória](#analise)
+    + Relação faixa etária e diagnóstico de câncer](#faixa-etaria-diagnostico)<br>
     5.2 [Relação mortes por tipo de câncer](#morte-tipo-cancer)    
     5.3 [Faixa-etária de 25-34 anos](#25-34)<br>
     5.4 [Faixa-etária de 35-44 anos](#35-44)<br>
