@@ -69,6 +69,7 @@ Para automatizar e gerenciar nossa infraestrutura de maneira eficiente, foi util
  - Gerenciamento do estado
 <br>
 <br>
+
 ## Na etapa de Análise Exploratória foram descobertos os vários insights importantes abaixo:<br>
 <br>
 
