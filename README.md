@@ -14,7 +14,7 @@
  * [Potenciais impactos](#Potenciais-impactos)
  * [Solução](#solucao)
  * [Análise Exploratória](#analise)
-    + Relação faixa etária e diagnóstico de câncer](#faixa-etaria-diagnostico)<br>
+    + [Relação faixa etária e diagnóstico de câncer](#faixa-etaria-diagnostico)<br>
     + [Relação mortes por tipo de câncer](#morte-tipo-cancer)    
     + [Faixa-etária de 25-34 anos](#25-34)<br>
     + [Faixa-etária de 35-44 anos](#35-44)<br>
