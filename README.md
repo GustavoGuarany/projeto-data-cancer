@@ -7,7 +7,7 @@
 ### Este projeto aplica técnicas de engenharia de dados para analisar e interpretar um vasto conjunto de dados disponível no site kaggle sobre o câncer no Brasil. 
 <br>
 
-<h3> Sumário   
+ Sumário   
  
  1. [Overview da solução](#overview)
  2. [Tecnologias utilizadas](#tecnologias)
